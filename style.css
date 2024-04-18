@@ -1,0 +1,9 @@
+body {
+  background-color: rgba(186, 217, 244, 0.84);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#temps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

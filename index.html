@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima Tempo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Digite a cidade que você deseja ver a temperatura agora:</h1>
+    <input type="text" id="cidade" />
+    <button onclick="obterTemp()">Ver a temperatura</button>
+    <div id="temps">
+      <p><strong>Temperatura atual:</strong></p>
+      <p id="tempA"></p>
+      <p><strong>Temperatura mínima:</strong></p>
+      <p id="tempMin"></p>
+      <p><strong>Temperatura máxima:</strong></p>
+      <p id="tempMax"></p>
+      <p><strong>Sensação térmica:</strong></p>
+      <p id="feels"></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
